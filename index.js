@@ -11,7 +11,7 @@ const AdmZip = require("adm-zip");
 const { mkdirSync, writeFileSync, readFileSync } = require("fs");
 
 const DEFAULT_DOCKER_TAG = "latest";
-const DEFAULT_DOCKER_IMAGE = "softprops/lambda-rust";
+const DEFAULT_DOCKER_IMAGE = "rustserverless/lambda-rust";
 const RUST_RUNTIME = "rust";
 const BASE_RUNTIME = "provided.al2";
 const NO_OUTPUT_CAPTURE = { stdio: ["ignore", process.stdout, process.stderr] };
